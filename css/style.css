@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*MENÚ PRINCIPAL*/
+#row1{
+	background-color: #000;
+	height: 15vh;
+}
+
+#logo1 h1{
+	color: #fff;
+	font-family: 'Euphoria Script', cursive;
+	font-size: 50px;
+	margin-left: 10%;
+	margin-top: 1.5%;
+}
+
+.fa-heart{
+	color: #D64784;
+	font-size: 50px;
+	margin-left: 14%;
+	
+}
+
+#logo1 p{
+	color: #fff;
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size: 40px;
+	margin-left: 20.5%;
+	margin-top: -3.6%;
+	font-weight: 200;
+}
+
+#logo1 h2{
+	color: #fff;
+	font-family: 'Sniglet', sans-serif;
+	font-size: 40px;
+	margin-left: 23.2%;
+	margin-top: -3.5%;
+	font-weight: 200;
+}
+
+#logo1 h1, p, h2, .fa-heart{
+	margin-top: -4%;
+}
+
+/*INPUT DE BUSQUEDA*/
+input{
+	margin-left: 100%;
+	margin-top: 5.5%;
+	width: 60%;
+	height: 50%;
+	border: none;
+	border-radius: 6px;
+	text-align: center;
+}
+
+/*IZQUIERDO*/
+	#left h4{
+		color: #fff;
+		margin-left: 120%;
+		margin-top: 11%;
+		font-family: 'Sniglet', cursive;
+		font-size: 20px;
+		border: 1px solid #D64784;
+		background-color: #D64784;
+		width: 30%;
+		height: 38%;
+		text-align: center;
+		border-radius: 3px;
+		font-weight: 200;
+	}
+
+	#left h4 .fa-shopping-bag{
+		font-size: 20px;
+		margin-left: 3%;
+	}
+
+	#left h3{
+		color: #fff;
+		margin-left: 155%;
+		margin-top: -8.8%;
+		font-family: 'Sniglet', cursive;
+		font-size: 20px;
+		width: 25%;
+		height: 38%;
+		font-weight: 200;
+		text-align: center;
+		border-radius: 3px;
+		border: 1px solid #D64784;
+		background-color: #D64784;
+	}
+
+/*IMAGEN PRINCIPAL*/
+#row2 img{
+	width: 100%;
+}
+
+/*TERCERA SECCIÓN*/
+#row3 .col-5{
+	margin-left: 15%;
+	margin-top: 5%;
+	line-height: 180%;
+}
+
+#row3 h1{
+	text-align: center;
+	font-family: 'Euphoria Script', cursive;
+	font-size: 50px;
+	margin-top: 2%;
+	color: #D64784;
+}
+
+#row3 p{
+	font-family: 'Sniglet', cursive;
+	margin-top: 2%;
+}
+
+#row3 button{
+	margin-top: 5%;
+	margin-left: 5%;
+	border: none;
+	border-radius: 6px;
+	padding: 1.5%;
+	background-color: #D64784;
+	font-family: 'Sniglet', cursive;
+	font-size: 15px;
+}
+
+#row3 .col-3{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+
+#row3 .col-3 p{
+	margin-left: 30%;
+}
+
+/*CUARTA SECCIÓN*/
+#img1, #img2, #img3{
+	margin-left: 7.5%;
+	margin-top: 5%; 
+}
+
+#row4 img{
+	border: 2.5px dotted #D64784;
+}
+
+#row4 h1{
+	font-family: 'Euphoria Script', cursive;
+	font-size: 35px;
+	margin-top: 2%;
+	margin-left: 20%;
+	color: #D64784;
+}
+
+#row4 p{
+	font-family: 'Sniglet', cursive;
+	margin-top: 2%;
+}
+
+#row4 button{
+	margin-top: 5%;
+	margin-left: 5%;
+	border: none;
+	border-radius: 6px;
+	padding: 1.5%;
+	background-color: #D64784;
+	font-family: 'Sniglet', cursive;
+	font-size: 15px;
+}
+
+/*FOOTER*/
+#row5 .col-12{
+	background-color: #000;
+	height: 10vh;
+	margin-top: 5%;
+}
+
+#row5 p{
+	color: #fff;
+	font-family: 'Sniglet', cursive;
+	font-weight: 200;
+	font-size: 15px;
+	margin-left: 30%;
+	margin-top: -5%;
+}
