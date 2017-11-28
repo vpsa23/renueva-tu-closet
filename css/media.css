@@ -1,0 +1,8 @@
+@media handheld (min-width: 70px) and (max-width: 1334px){
+	body{
+		width: 98%;
+	}
+}
+
+
+
